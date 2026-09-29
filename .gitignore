@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Database backups
+*.dump
+*.sql
+*.sqlite3
+*.db
+
+# Uploaded files
+backend/uploads/
+uploads/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
