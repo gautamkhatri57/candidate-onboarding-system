@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 import "./App.css"
 
-const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "")
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "https://candidate-onboarding-backend-1sow.onrender.com").replace(/\/$/, "")
 
 import {
 
